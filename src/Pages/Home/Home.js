@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 import Banner from './Banner';
 import Contact from './Contact';
 import HomeAppointment from './HomeAppointment';
@@ -17,6 +18,7 @@ const Home = () => {
             <HomeAppointment ></HomeAppointment>
             <Testimonials></Testimonials>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
